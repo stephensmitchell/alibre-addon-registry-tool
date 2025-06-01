@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<PackAsTool>true</PackAsTool>
+		<ToolCommandName>GetInstalledAddons</ToolCommandName>
+		<PackageId>GetInstalledAddons.Tool</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Stephen Mitchell</Authors>
+		<Description>Prints Alibre Design Add-Ons registry value or enumerates all values under a key.</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://tn7jff.gitea.cloud/Testbed/Get-Installed-Addons</RepositoryUrl>
+		<PublishTrimmed>true</PublishTrimmed>
+		<PublishSingleFile>false</PublishSingleFile>
+	</PropertyGroup>
+</Project>
